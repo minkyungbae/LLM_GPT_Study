@@ -15,24 +15,27 @@
 ---
 ## 📕 Transformer 모델이란?
 >**자연어 처리(NLP)와 기타 머신 러닝 작업에서 사용되는 딥러닝 모델 구조다.**
-
 <br><br>
+
 #### 📕 주요 개념과 구조 🤔
 1. **Self-Attention Mechanism(자체 주의 메커니즘)**
     - Transformer의 핵심 아이디어는 Self-Attention이다.
     - 예를 들어,
         "I went to the bank to deposit money"에서 "bank"라는 단어는 문맥에 따라 "강둑"이 아닌 "금융기관"을 의미한다는 것을 Self-Attention이 문맥적 정보를 학습한다.
 <br><br>
+
 2. **Encoder-Decoder 구조**
     - Encoder와 Decoder로 구성된다.
         - Encoder: 입력 문장의 특징을 학습하고 표현(벡터)을 생성하고, 주로 **문장 이해**에 사용된다.
         - Decoder: Encoder의 출력을 사용해 새로운 문장을 생성하고, 주로 **문장 생성**이나 **번역**에 사용된다.
 <br><br>
+
 3. **멀티헤드 어텐션 (Multi-Head Attention)**
     - 여러 Attention 헤드를 ***병렬*** 로 실행해 입력 데이터의 다양한 의미를 동시에 학습한다.
     - 예를 들어,
         한 헤드는 단어의 문법적 관계를, 다른 헤드는 문맥적 의미를 학습할 수 있다.
 <br><br>
+
 4. **Position Embedding (위치 임베딩)**
     - Transformer는 순서를 고려하지 않는 모델이기 때문에 입력 데이터의 순서 정보를 보완하기 위해 각 단어에 위치 정보를 추가한다.
 <br><br>
@@ -41,9 +44,11 @@
 1. **병렬 처리 가능**
     - RNN(Recurrent Neural Network)과 달리 입력 데이터를 <u>순차적으로 처리하지 않고</u> 한 번에 병렬로 처리할 수 있어 <u>학습 속도가 빠르다</u>.
 <br><br>
+
 2. **긴 문맥 학습 가능**
     - Self-Attention을 통해 긴 문장이나 문서의 모든 단어 관계를 학습할 수 있다.
 <br><br>
+
 3. **범용성**
     - 번역, 텍스트 생성, 요약, 질문 답변 등 다양한 NLP 작업에 적합하다.
     - 컴퓨터 비전(예: Vision Transformer)과 음성 처리 등에도 확장되었다.
