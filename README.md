@@ -17,7 +17,7 @@
 >**자연어 처리(NLP)와 기타 머신 러닝 작업에서 사용되는 딥러닝 모델 구조다.**
 <br><br>
 
-#### 📕 주요 개념과 구조 🤔
+### 📕 주요 개념과 구조 🤔
 1. **Self-Attention Mechanism(자체 주의 메커니즘)**
     - Transformer의 핵심 아이디어는 Self-Attention이다.
     - 예를 들어,
@@ -40,7 +40,7 @@
     - Transformer는 순서를 고려하지 않는 모델이기 때문에 입력 데이터의 순서 정보를 보완하기 위해 각 단어에 위치 정보를 추가한다.
 <br><br>
 
-#### 📕 Transformer 모델의 장점 🤔
+### 📕 Transformer 모델의 장점 🤔
 1. **병렬 처리 가능**
     - RNN(Recurrent Neural Network)과 달리 입력 데이터를 <u>순차적으로 처리하지 않고</u> 한 번에 병렬로 처리할 수 있어 <u>학습 속도가 빠르다</u>.
 <br><br>
@@ -54,7 +54,7 @@
     - 컴퓨터 비전(예: Vision Transformer)과 음성 처리 등에도 확장되었다.
 <br><br>
 
-#### 📕 대표적인 Transformer 기반 모델 🤔
+### 📕 대표적인 Transformer 기반 모델 🤔
 1. **GPT (Generative Pre-trained Transformer)**
     - OpenAI에서 개발한 언어 생성 모델이다.
     - 주어진 문맥에서 다음 단어를 예측하는 방식으로 작동한다.
